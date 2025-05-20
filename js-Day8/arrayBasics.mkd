@@ -1,0 +1,23 @@
+1. UNDERSTANDING ARRAYS
+    Arrays store multiple values in a single variable.
+    Ex - let fruits = ['Apples', 'Bananas', 'Mangos'];
+
+2. ACCESSING AND MODIFYING ARRAYS
+    Access elements: array[index]
+    Modify elements: array[index] = newValue;
+    Add new elements: .push(value), .unshift(value)
+    Remove elements: .pop(), .shift()
+
+3. ARRAY METHODS
+    .splice(start, deleteCount, item1, item2, ...) = Add/remove elements
+    .slice(start, end) = Extracts part of array
+    .indexOf(value) = Finds the index of a value
+
+4. LOOPING THROUGH ARRAYS
+    Using `for` loop or `.forEach()` to iterate over elements
+
+5. HIGHER ORDER FUNCTIONS
+    .map() - Transforms each element in an array
+    .filter() - Returns elements that meet a condition
+    .reduce() - Accumulates values into a single result
+    
