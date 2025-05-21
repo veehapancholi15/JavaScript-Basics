@@ -1,0 +1,27 @@
+1. UNDERSTANDING `ASYNC` FUNCTIONS
+    The `async` keyword makes a function return a Promise automatically.
+
+2. USING `AWAIT` FOR HANDLING PROMISES
+    `await` pauses execution until a Promise resolves.
+
+3. HANDLING ERRORS WITH TRY...CATCH
+    Prevents crashes and ensures smooth execution.
+
+4. USING `AWAIT` INSIDE LOOPS
+    Executes requests sequentially inside a loop.
+
+5. RUNNING REQUESTS IN PARALLEL WITH `Promise.all()`
+    Best for faster execution when tasks are independent.
+
+6. async/await VS Promises (.then())
+    Readability :
+        Easier to read
+        More complex
+    
+    Error Handling :
+        Uses try...catch
+        Uses .catch()
+
+    Execution :
+        Sequential(unless Promise.all() is used)
+        Works well with .then() chaining
