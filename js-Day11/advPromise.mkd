@@ -1,0 +1,16 @@
+#ADVANCE PROMISES AND ASYNC/AWAIT
+
+1. Understanding Promises
+    A promises represents a future asynchronous condition that can either be resolve(success) or reject(failure).
+
+    Example:
+
+    const myPromise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Promise resolved successfully!);
+        }, 2000);
+    });
+
+    myPromise
+        .then(result => console.log(result));
+        .catch(error => console.log(error));
