@@ -1,0 +1,5 @@
+#PRACTICE EXAMPLES
+
+1. Custom Error
+2. Debugging
+3. System Error [try...catch, finally]
